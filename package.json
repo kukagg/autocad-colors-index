@@ -1,0 +1,19 @@
+{
+  "name": "autocad-colors-index",
+  "version": "1.0.0",
+  "description": "AutoCAD Colors Index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "autocad",
+    "colors",
+    "index",
+    "hex",
+    "rgb",
+    "ACI"
+  ],
+  "author": "Kuanysh Bayandinov <kuanysh@me.com> (https://kuanysh.com)",
+  "license": "MIT"
+}
