@@ -1037,7 +1037,7 @@ function findByKey(key, val) {
 
   list.forEach(function (item) {
     if (item[key] && item[key] === val) {
-      found = item[key]
+      found = item
     }
   })
 
