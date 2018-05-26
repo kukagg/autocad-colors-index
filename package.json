@@ -1,8 +1,9 @@
 {
   "name": "autocad-colors-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AutoCAD Colors Index",
   "main": "index.js",
+  "repository": "https://github.com/kuka/autocad-colors-index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

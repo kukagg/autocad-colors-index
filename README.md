@@ -11,4 +11,5 @@ const aci = colorsMapper.getByACI(255)
 const hex = colorsMapper.getByHEX('#ffffff')
 
 console.log(aci.hex === hex.hex) // true
+console.log(aci.rgb) // has rgb too
 ```
