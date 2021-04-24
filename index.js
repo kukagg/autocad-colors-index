@@ -1036,7 +1036,7 @@ function findByKey(key, val) {
   var found
 
   list.forEach(function (item) {
-    if (item[key] && item[key] === val) {
+    if (item[key] !== undefined && item[key] === val) {
       found = item
     }
   })
@@ -1051,6 +1051,6 @@ module.exports = {
     return findByKey('aci', aci)
   },
   getByHEX(hex) {
-    return findByKey('hex', hex)
+    return findByKey('hex', hex.toUpperCase())
   }
 }
